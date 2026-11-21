@@ -5,8 +5,8 @@
 
 import { ALPHABET, Lock, State, mod26 } from './engine.js';
 
-/** The App Store link for the badge and the "Stuck?" chip (the campaign link with ct=weblock goes here). */
-const APP_STORE_URL = 'https://apps.apple.com/app/id6818298736';
+/** The App Store link for the badge and the "Stuck?" chip: the campaign link (ct=weblock), so installs from the web lock show in App Store Connect. */
+const APP_STORE_URL = 'https://apps.apple.com/app/apple-store/id6818298736?pt=129015800&ct=weblock&mt=8';
 /** The address the share text ends with. */
 const SHARE_URL = 'cogword.devxcellence.com/play';
 /** After this long on the clock, or this many moves, the "Stuck?" chip shows (the app's thresholds). */
